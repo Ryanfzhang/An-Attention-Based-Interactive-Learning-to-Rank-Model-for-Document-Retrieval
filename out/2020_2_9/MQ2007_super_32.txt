@@ -1,0 +1,12 @@
+**************************************************Fold-1**************************************************
+args:Namespace(dataset='MQ2007_super', dir_data='/mnt/disk/zf/data/MQ2007/', dir_output='/home/ryan/code/ranker/out/', discount=0.9, discount_pagewise=0.8, dropout=0.1, epoch=100, feature_size=46, fold=1, framework='L2R', hidden_size=100, lr=0.001, min_docs=10, min_rele=1, model='PagewiseRank', n_head=1, num_epoches=100, num_layers=1, page=100, unknown_as_zero=True, vali_per_n_step=1, weight_decay=0.0005)
+test ndcg 1:0.3632, 3:0.3893, 5:0.4175, 10:0.4642, 20:0.5419
+test err 1:0.1569, 3:0.2483, 5:0.2841, 10:0.3066, 20:0.3157
+test ndcg 1:0.4759, 3:0.4469, 5:0.4520, 10:0.4898, 20:0.5549
+test err 1:0.2207, 3:0.3031, 5:0.3292, 10:0.3523, 20:0.3610
+test ndcg 1:0.4563, 3:0.4522, 5:0.4535, 10:0.4845, 20:0.5548
+test err 1:0.2164, 3:0.3081, 5:0.3319, 10:0.3524, 20:0.3620
+test ndcg 1:0.4460, 3:0.4300, 5:0.4357, 10:0.4659, 20:0.5315
+test err 1:0.2155, 3:0.2983, 5:0.3249, 10:0.3460, 20:0.3550
+test ndcg 1:0.4483, 3:0.4350, 5:0.4462, 10:0.4696, 20:0.5399
+test err 1:0.2138, 3:0.3008, 5:0.3259, 10:0.3464, 20:0.3554

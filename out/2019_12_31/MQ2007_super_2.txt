@@ -1,0 +1,4 @@
+**************************************************Fold-1**************************************************
+args:Namespace(dataset='MQ2007_super', dir_data='/home/ryan/data/MQ2007/', dir_output='/home/ryan/code/ranker/out/', discount=0.9, dropout=0.1, epoch=100, feature_size=46, fold=1, framework='L2R', hidden_size=100, lr=0.001, min_docs=10, min_rele=1, model='attRNN', n_head=1, num_epoches=100, num_layers=1, unknown_as_zero=True, vali_per_n_step=1, weight_decay=0.0005)
+test ndcg 1:0.4609, 3:0.4511, 5:0.4492, 10:0.4844, 20:0.5572
+test err 1:0.2198, 3:0.3062, 5:0.3297, 10:0.3522, 20:0.3610
